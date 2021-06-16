@@ -1,0 +1,36 @@
+.toggleSwitch {
+    width: 120px;
+    height: 60px;
+    border-radius: 200px;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    z-index: 5;
+}
+
+/* CSS for switch when "on"*/
+.toggleSwitch.on {
+    background-color: black;
+    justify-content: flex-end;
+    /* for smooth transition*/
+    transition: 0.5s ease-in-out;
+}
+
+/*CSS for switch when "off"*/
+.toggleSwitch.off {
+    background-color: white;
+    justify-content: flex-start;
+}
+
+.toggleSwitch div {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.toggleImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+

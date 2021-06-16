@@ -1,0 +1,10 @@
+.adCarousel {
+    max-width: 95%;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.adImage {
+    object-fit: fill;
+}

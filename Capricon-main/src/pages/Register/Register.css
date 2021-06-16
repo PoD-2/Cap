@@ -1,0 +1,21 @@
+.bgImg {
+object-fit:cover;
+object-position: -100px 0px;
+}
+
+/* @media only screen 
+and (min-width : 994px) {
+
+    .embedShadow {
+        box-shadow: 85px 1px 67px -70px rgba(0,0,0,0.63) inset;
+        -webkit-box-shadow: 85px 1px 67px -70px rgba(0,0,0,0.63) inset;
+        -moz-box-shadow: 85px 1px 67px -70px rgba(0,0,0,0.63) inset;
+    }
+
+} */
+
+    .registerForm {
+      max-width: 600px;
+    }
+  
+

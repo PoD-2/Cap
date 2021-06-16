@@ -1,0 +1,14 @@
+.productContainer {
+  border-bottom: 2px solid #d8d8d852;
+  padding: 10px 8px;
+}
+
+.productContainer:hover {
+    color: #2f77eb;
+}
+
+.productSearchName {
+  font-size: 22px;
+  margin-left: 10px;
+  flex: 2;
+}

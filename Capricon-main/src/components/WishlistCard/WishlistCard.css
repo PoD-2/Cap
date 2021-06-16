@@ -1,0 +1,27 @@
+.image {
+   position: relative;
+ }
+ 
+ .image .delete {
+   background-color: red;
+   width: 100%;
+   height: 100%;
+   padding: 10px;
+   color: white;
+   position: absolute;
+   top: 0;
+   right: 0;
+   opacity: 0;
+   transition:opacity 0.2s linear;
+   -moz-transition: opacity 0.2s linear;
+   -webkit-transition: opacity 0.2s linear;
+ }
+ 
+ .image:hover .delete {
+   opacity: 0.4;
+   transition: opacity 0.2s linear;
+   -moz-transition: opacity 0.2s linear;
+   -webkit-transition: opacity 0.2s linear;
+   cursor: default;
+ }
+ 

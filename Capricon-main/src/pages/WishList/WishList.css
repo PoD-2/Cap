@@ -1,0 +1,15 @@
+.productName {
+    color: black;
+    transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+}
+
+.productName:hover {
+    color: #2f77eb;
+    cursor: default;
+    transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+}
+
